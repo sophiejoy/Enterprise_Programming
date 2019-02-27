@@ -1,0 +1,222 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\node_modules\ajv-keywords\package.json" />
+    <Content Include="wwwroot\node_modules\ajv\lib\refs\data.json" />
+    <Content Include="wwwroot\node_modules\ajv\lib\refs\json-schema-draft-04.json" />
+    <Content Include="wwwroot\node_modules\ajv\lib\refs\json-schema-draft-06.json" />
+    <Content Include="wwwroot\node_modules\ajv\lib\refs\json-schema-draft-07.json" />
+    <Content Include="wwwroot\node_modules\ajv\package.json" />
+    <Content Include="wwwroot\node_modules\big.js\package.json" />
+    <Content Include="wwwroot\node_modules\emojis-list\package.json" />
+    <Content Include="wwwroot\node_modules\fast-deep-equal\package.json" />
+    <Content Include="wwwroot\node_modules\fast-json-stable-stringify\benchmark\test.json" />
+    <Content Include="wwwroot\node_modules\fast-json-stable-stringify\package.json" />
+    <Content Include="wwwroot\node_modules\file-loader\dist\options.json" />
+    <Content Include="wwwroot\node_modules\file-loader\package.json" />
+    <Content Include="wwwroot\node_modules\json-schema-traverse\package.json" />
+    <Content Include="wwwroot\node_modules\json5\package.json" />
+    <Content Include="wwwroot\node_modules\loader-utils\package.json" />
+    <Content Include="wwwroot\node_modules\schema-utils\package.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\node_modules\.bin\json5" />
+    <None Include="wwwroot\node_modules\.bin\json5.cmd" />
+    <None Include="wwwroot\node_modules\ajv-keywords\index.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\deepProperties.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\deepRequired.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\dotjs\patternRequired.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\dotjs\README.md" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\dotjs\switch.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\dotjs\_formatLimit.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\dot\patternRequired.jst" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\dot\switch.jst" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\dot\_formatLimit.jst" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\dynamicDefaults.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\formatMaximum.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\formatMinimum.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\index.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\instanceof.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\patternRequired.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\prohibited.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\range.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\regexp.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\select.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\switch.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\typeof.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\uniqueItemProperties.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\_formatLimit.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\keywords\_util.js" />
+    <None Include="wwwroot\node_modules\ajv-keywords\LICENSE" />
+    <None Include="wwwroot\node_modules\ajv-keywords\README.md" />
+    <None Include="wwwroot\node_modules\ajv\.tonic_example.js" />
+    <None Include="wwwroot\node_modules\ajv\dist\ajv.bundle.js" />
+    <None Include="wwwroot\node_modules\ajv\dist\ajv.min.js" />
+    <None Include="wwwroot\node_modules\ajv\dist\ajv.min.js.map" />
+    <None Include="wwwroot\node_modules\ajv\lib\ajv.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\cache.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\compile\async.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\compile\equal.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\compile\error_classes.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\compile\formats.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\compile\index.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\compile\resolve.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\compile\rules.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\compile\schema_obj.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\compile\ucs2length.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\compile\util.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\data.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\allOf.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\anyOf.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\comment.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\const.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\contains.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\custom.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\dependencies.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\enum.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\format.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\if.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\index.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\items.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\multipleOf.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\not.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\oneOf.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\pattern.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\properties.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\propertyNames.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\README.md" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\ref.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\required.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\uniqueItems.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\validate.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\_limit.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\_limitItems.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\_limitLength.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dotjs\_limitProperties.js" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\allOf.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\anyOf.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\coerce.def" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\comment.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\const.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\contains.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\custom.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\defaults.def" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\definitions.def" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\dependencies.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\enum.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\errors.def" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\format.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\if.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\items.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\missing.def" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\multipleOf.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\not.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\oneOf.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\pattern.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\properties.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\propertyNames.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\ref.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\required.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\uniqueItems.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\validate.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\_limit.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\_limitItems.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\_limitLength.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\dot\_limitProperties.jst" />
+    <None Include="wwwroot\node_modules\ajv\lib\keyword.js" />
+    <None Include="wwwroot\node_modules\ajv\LICENSE" />
+    <None Include="wwwroot\node_modules\ajv\README.md" />
+    <None Include="wwwroot\node_modules\ajv\scripts\.eslintrc.yml" />
+    <None Include="wwwroot\node_modules\ajv\scripts\bundle.js" />
+    <None Include="wwwroot\node_modules\ajv\scripts\compile-dots.js" />
+    <None Include="wwwroot\node_modules\ajv\scripts\info" />
+    <None Include="wwwroot\node_modules\ajv\scripts\prepare-tests" />
+    <None Include="wwwroot\node_modules\ajv\scripts\publish-built-version" />
+    <None Include="wwwroot\node_modules\ajv\scripts\travis-gh-pages" />
+    <None Include="wwwroot\node_modules\big.js\big.js" />
+    <None Include="wwwroot\node_modules\big.js\big.min.js" />
+    <None Include="wwwroot\node_modules\big.js\LICENCE" />
+    <None Include="wwwroot\node_modules\big.js\README.md" />
+    <None Include="wwwroot\node_modules\emojis-list\CHANGELOG.md" />
+    <None Include="wwwroot\node_modules\emojis-list\index.js" />
+    <None Include="wwwroot\node_modules\emojis-list\LICENSE.md" />
+    <None Include="wwwroot\node_modules\emojis-list\README.md" />
+    <None Include="wwwroot\node_modules\fast-deep-equal\index.js" />
+    <None Include="wwwroot\node_modules\fast-deep-equal\LICENSE" />
+    <None Include="wwwroot\node_modules\fast-deep-equal\README.md" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\.eslintrc.yml" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\.npmignore" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\.travis.yml" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\benchmark\index.js" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\example\key_cmp.js" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\example\nested.js" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\example\str.js" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\example\value_cmp.js" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\index.js" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\LICENSE" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\README.md" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\test\cmp.js" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\test\nested.js" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\test\str.js" />
+    <None Include="wwwroot\node_modules\fast-json-stable-stringify\test\to-json.js" />
+    <None Include="wwwroot\node_modules\file-loader\CHANGELOG.md" />
+    <None Include="wwwroot\node_modules\file-loader\dist\cjs.js" />
+    <None Include="wwwroot\node_modules\file-loader\dist\index.js" />
+    <None Include="wwwroot\node_modules\file-loader\LICENSE" />
+    <None Include="wwwroot\node_modules\file-loader\README.md" />
+    <None Include="wwwroot\node_modules\json-schema-traverse\.eslintrc.yml" />
+    <None Include="wwwroot\node_modules\json-schema-traverse\.npmignore" />
+    <None Include="wwwroot\node_modules\json-schema-traverse\.travis.yml" />
+    <None Include="wwwroot\node_modules\json-schema-traverse\index.js" />
+    <None Include="wwwroot\node_modules\json-schema-traverse\LICENSE" />
+    <None Include="wwwroot\node_modules\json-schema-traverse\README.md" />
+    <None Include="wwwroot\node_modules\json-schema-traverse\spec\.eslintrc.yml" />
+    <None Include="wwwroot\node_modules\json-schema-traverse\spec\fixtures\schema.js" />
+    <None Include="wwwroot\node_modules\json-schema-traverse\spec\index.spec.js" />
+    <None Include="wwwroot\node_modules\json5\CHANGELOG.md" />
+    <None Include="wwwroot\node_modules\json5\lib\cli.js" />
+    <None Include="wwwroot\node_modules\json5\lib\json5.js" />
+    <None Include="wwwroot\node_modules\json5\lib\require.js" />
+    <None Include="wwwroot\node_modules\json5\LICENSE.md" />
+    <None Include="wwwroot\node_modules\json5\README.md" />
+    <None Include="wwwroot\node_modules\loader-utils\CHANGELOG.md" />
+    <None Include="wwwroot\node_modules\loader-utils\lib\getCurrentRequest.js" />
+    <None Include="wwwroot\node_modules\loader-utils\lib\getHashDigest.js" />
+    <None Include="wwwroot\node_modules\loader-utils\lib\getOptions.js" />
+    <None Include="wwwroot\node_modules\loader-utils\lib\getRemainingRequest.js" />
+    <None Include="wwwroot\node_modules\loader-utils\lib\index.js" />
+    <None Include="wwwroot\node_modules\loader-utils\lib\interpolateName.js" />
+    <None Include="wwwroot\node_modules\loader-utils\lib\isUrlRequest.js" />
+    <None Include="wwwroot\node_modules\loader-utils\lib\parseQuery.js" />
+    <None Include="wwwroot\node_modules\loader-utils\lib\parseString.js" />
+    <None Include="wwwroot\node_modules\loader-utils\lib\stringifyRequest.js" />
+    <None Include="wwwroot\node_modules\loader-utils\lib\urlToRequest.js" />
+    <None Include="wwwroot\node_modules\loader-utils\LICENSE" />
+    <None Include="wwwroot\node_modules\loader-utils\README.md" />
+    <None Include="wwwroot\node_modules\schema-utils\CHANGELOG.md" />
+    <None Include="wwwroot\node_modules\schema-utils\dist\cjs.js" />
+    <None Include="wwwroot\node_modules\schema-utils\dist\index.js" />
+    <None Include="wwwroot\node_modules\schema-utils\dist\validateOptions.js" />
+    <None Include="wwwroot\node_modules\schema-utils\dist\ValidationError.js" />
+    <None Include="wwwroot\node_modules\schema-utils\LICENSE" />
+    <None Include="wwwroot\node_modules\schema-utils\README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="wwwroot\node_modules\ajv\lib\ajv.d.ts" />
+    <TypeScriptCompile Include="wwwroot\node_modules\fast-deep-equal\index.d.ts" />
+  </ItemGroup>
+
+</Project>

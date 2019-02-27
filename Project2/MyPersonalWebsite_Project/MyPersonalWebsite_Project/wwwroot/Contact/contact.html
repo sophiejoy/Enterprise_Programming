@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Contact</title>
+    <script src="dist/js/bundle.js"></script>
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="../styles/webDesign1.css" type="text/css" rel="stylesheet" /> 
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="media-body">
+
+
+        </div>
+
+        <h3> Please fill in the form below to contact me if you have any question !</h3>
+
+        <form action="ContactFeedBack.html">
+
+            <div class="form-group-row">
+                <label for="" class="col-sm-1-form-label">Select a reason for contact</label>
+                <div class="col-sm-5">
+                    <select class="form-control" id="" required>
+                        <option></option>
+                        <option>Job offer</option>
+                        <option>Need some help</option>
+                        <option>Need a job</option>
+                    </select><br />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="textInput" class="col-sm-1 col-form-label">Name</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="textInput" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="emailInput" class="col-sm-1 col-form-label">Email</label>
+                <div class="col-sm-5">
+                    <input type="email" class="form-control" id="emailInput" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="subjet" class="col-sm-1 col-form-label">Subject</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="subject" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="messageInput" class="col-sm-1 col-form-label">Message</label>
+                <div class="col-sm-5">
+                    <textarea class="form-control" id="messageInput" rows="5" required></textarea>
+                </div>
+            </div>
+            <br />
+
+            <button type="submit"
+                    id="submit" name="submit" class="btn btn-primary pull-right">
+                Submit
+            </button>
+
+            <button type="reset"
+                    id="reset" name="reset" class="btn btn-secondary">
+                Reset
+            </button>
+
+        </form>
+
+    <footer>
+        <div id="navBottom">
+            <br />
+            <a href="../index.html">Home</a> &nbsp;
+            <a href="../Portfolio/portfolio.html">Portfolio</a> &nbsp;
+            <a href="../Resume/resume.html">Resume</a> &nbsp;
+            <a href="../Contact/contact.html">Contact</a> &nbsp;
+            <br />
+        </div>
+
+
+    </footer>
+    </div>
+
+
+</body>
+</html>

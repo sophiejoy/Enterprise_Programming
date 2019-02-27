@@ -1,0 +1,3 @@
+cd MyPersonalWebsite_Project
+cd MyPersonalWebsite_Project
+dotnet run
