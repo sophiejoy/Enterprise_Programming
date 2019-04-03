@@ -1,0 +1,7 @@
+<div class="row" *ngIf="userResults && userResults.items">
+  <div *ngFor="let user of userResults.items" class="col-3">
+    <app-user [user]="user"></app-user>
+  </div>
+
+</div>
+

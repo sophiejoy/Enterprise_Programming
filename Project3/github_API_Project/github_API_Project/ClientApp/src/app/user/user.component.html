@@ -1,0 +1,55 @@
+<div class="card">
+  <img class="card-img-top" [src]="user.avatar_url">
+  <h4>{{user.login}}</h4>
+</div>
+
+
+<ul class="list-group">
+  <li class="list-group-item"><p>Name</p>{{user.name}}</li>
+  <li class="list-group-item"><p>Location</p>{{user.location}}</li>
+  <li class="list-group-item"><p>Blog</p><a href="user.blog">{{user.blog}}</a></li>
+  <li class="list-group-item"><p>GitHub Profile</p><a href="user.html_url">{{user.url}}</a></li>
+
+</ul>
+
+<p></p>
+<h2>Repositories</h2>
+<table class="table table-striped">
+
+  <tr>
+    <th scope="col">Repo name</th>
+    <th scope="col">Stars</th>
+    <th scope="col">Open issues</th>
+    <th scope="col">Language</th>
+  </tr>
+  <tr *ngFor="let repo of repoResults">
+    <td>{{repo.name}}</td>
+    <td>{{repo.stargazers_count}}</td>
+    <td>{{repo.issues_url}}</td>
+    <td>{{repo.languages_url}}</td>
+
+</table>
+
+
+<p></p>
+<h2>Followers</h2>
+<table class="table table-striped">
+
+  <tr>
+    <th scope="col">Avatar</th>
+    <th scope="col">Login id</th>
+  </tr>
+  <tr *ngFor="let repo of repoResults">
+    <td>{{repo.follower_avatar_url}}</td>
+    <td>{{repo.follower_login}}</td>
+
+</table>
+
+
+
+
+
+<!--
+  {{repoResults | json}}
+
+-->

@@ -1,0 +1,30 @@
+<div>
+  <h2>Repositories</h2>
+  <table class="table">
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Open issues
+      </th>
+      <th>
+        Language
+      </th>
+      <th>
+        Stars
+      </th>
+    </tr>
+
+    <tr *ngFor="let repo of userResults">
+      <td>{{repo.name}}</td>
+      <td>{{repo.stargazers_url}}</td>
+      <td>{{repo.issues_url}}</td>
+      <td>{{repo.languages_url}}</td>
+    </tr>
+
+  </table>
+</div>
+
+
+

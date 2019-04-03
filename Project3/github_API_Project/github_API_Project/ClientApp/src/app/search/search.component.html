@@ -1,0 +1,46 @@
+<form>
+  <div class="form-group">
+    <label for="searchString">User/Repo</label>
+    <input name="searchString" type="text" [(ngModel)] ="searchString" class="form-control" id="searchString" placeholder="Enter search...">
+  </div>
+
+  <div class="form-check">
+    <input name="isUser" type="radio" [(ngModel)]="isUser" ng-value="true" class="form-check-input" id="isUser" checked>
+    <label class="form-check-label" for="isUser">User</label>
+  </div>
+
+  <div class="form-check">
+    <input name="isUser" type="radio" ng-model="isRepo" ng-value="false" class="form-check-input" id="isRepo">
+    <label class="form-check-label" for="isRepo">Repository</label>
+  </div>
+
+  <button type="button" (click)="search()" class="btn btn-primary">Search</button>
+</form>
+
+<div *ngIf="loading">
+  Loading...
+</div>
+
+<div *ngIf="userSearchResults && !loading">
+ 
+  <table class="table">
+      <tr>
+        <th>Login</th>
+        <th>Image</th>
+      </tr>
+   
+      <tr *ngFor="let user of userSearchResults ">
+        <td><a [routerLink]='["/user", user.id]'>{{user.login}}</a></td>
+        <td><img [src]="user.avatar_url"></td>
+      
+      </tr>
+
+
+
+   
+  </table>
+</div>
+<div class="alert alert-warning" role="alert" *ngIf="searchFailed">
+  Search returned no results. Please try again.
+</div>
+
